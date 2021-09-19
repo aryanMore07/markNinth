@@ -4,17 +4,20 @@ import "./styles.css";
 const gamesDb = {
   Action: [
     { Name: "Far-Cry 3", Rating: "9/10" },
-    { Name: "Far-Cry 4", Rating: "8.5/10" }
+    { Name: "Far-Cry 4", Rating: "8.5/10" },
+    { Name: "Red Dead Redemption 2", Rating: "10/10" }
   ],
 
   StoryMode: [
     { Name: "GTA-5", Rating: "10/10" },
-    { Name: "Watch-Dogs", Rating: "8.4/10" }
+    { Name: "Watch-Dogs", Rating: "8.4/10" },
+    { Name: "Uncharted-4", Rating: "9/10" }
   ],
 
   OnlineFPS: [
     { Name: "ApexLegends", Rating: "9/10" },
-    { Name: "Fortnite", Rating: "9.6/10" }
+    { Name: "Fortnite", Rating: "9.6/10" },
+    { Name: "Call Of Duty-Warzone", Rating: "7/10" }
   ]
 };
 
@@ -73,9 +76,7 @@ export default function App() {
           ))}
         </ul>
       </div>
-      <div>
-        Note : The Rating Are According To IGN | Internet NetWork Gaming
-      </div>
+      <div>Note : The Rating Are According To IGN | Imagine Games Network</div>
     </div>
   );
 }
